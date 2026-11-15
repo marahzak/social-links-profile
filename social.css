@@ -1,15 +1,17 @@
 @font-face {
   font-family: "ThmanyahSans";
-  src: url("./thmanyahsans/otf/thmanyahsans-Regular.otf") format("opentype");
+  src: url("thmanyahsans/otf/thmanyahsans-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+  font-feature-settings: "swsh" on;
 }
 
 @font-face {
   font-family: "ThmanyahSans";
-  src: url("./thmanyahsans/otf/thmanyahsans-Bold.otf") format("opentype");
+  src: url("thmanyahsans/otf/thmanyahsans-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
+  font-feature-settings: "swsh" on;
 }
 * {
   box-sizing: border-box;
@@ -48,8 +50,6 @@ img {
 }
 h1 {
   font-size: 32px;
-  font-feature-settings: "swsh" on;
-  font-family: "thmanyah sans";
   margin-bottom: 16px;
 }
 p {
